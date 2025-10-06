@@ -1,5 +1,7 @@
 # Ex.05 Design a Website for Server Side Processing
-## Date:06/10/2025
+## Date: 06/10/2025
+## Devoloped by: CHIDROOP M J
+### Reference number: 25018548
 
 ## AIM:
  To design a website to calculate the power of a lamp filament in an incandescent bulb in the server side. 
@@ -33,7 +35,7 @@ Publish the website in the given URL.
 
 ## PROGRAM :
 
-```
+```html
 home.html
 
 <!DOCTYPE html>
