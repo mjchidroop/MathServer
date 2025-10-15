@@ -34,9 +34,9 @@ Create a HTML file to implement form based input and output.
 Publish the website in the given URL.
 
 ## PROGRAM :
+home.html
 
 ```html
-home.html
 
 <!DOCTYPE html>
 <html lang="en">
@@ -120,9 +120,10 @@ home.html
   </div>
 </body>
 </html>
+```
 
-calculator.html
-
+###calculator.html
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -232,9 +233,8 @@ calculator.html
 </body>
 </html>
 ```
+###views.py
 ```python
-
-views.py
 
 from django.shortcuts import render
 
@@ -248,8 +248,9 @@ def calculator(request):
         resistance = float(request.POST.get('resistance', 0))
         power = round(intensity ** 2 * resistance, 2)
     return render(request, 'powerapp/calculator.html', {'power': power})
-
-urls.py
+```
+###urls.py
+```python
 
 from django.urls import path
 from . import views
