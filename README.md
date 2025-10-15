@@ -122,7 +122,7 @@ home.html
 </html>
 ```
 
-###calculator.html
+calculator.html
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -233,7 +233,7 @@ home.html
 </body>
 </html>
 ```
-###views.py
+views.py
 ```python
 
 from django.shortcuts import render
@@ -249,7 +249,7 @@ def calculator(request):
         power = round(intensity ** 2 * resistance, 2)
     return render(request, 'powerapp/calculator.html', {'power': power})
 ```
-###urls.py
+urls.py
 ```python
 
 from django.urls import path
