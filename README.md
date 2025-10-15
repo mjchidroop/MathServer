@@ -231,6 +231,8 @@ calculator.html
   </script>
 </body>
 </html>
+```
+```python
 
 views.py
 
